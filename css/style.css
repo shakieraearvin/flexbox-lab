@@ -11,6 +11,15 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  #destinations, #actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
   p {
@@ -22,8 +31,18 @@
     background-color: black;
     color: white;
     padding: 24px 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
   
+  #trending {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
   h1,
   h2 {
     text-align: center;

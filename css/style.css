@@ -43,6 +43,27 @@
     gap: 12px;
   }
 
+  #subnav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 24px 72px;
+    flex-direction: row;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 12px;
+    
+  }
+
   h1,
   h2 {
     text-align: center;
